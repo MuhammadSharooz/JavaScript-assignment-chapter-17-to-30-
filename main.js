@@ -11,16 +11,16 @@ for(let i=1; i<=10; i++){
     document.write(i+ " <br />"  )
 }
 // Question # 04
-// document.write("<h3>Question # 04 </h3>")
-// let table = +prompt("Enter table number")
-// let length = +prompt("Enter table lentgh")
+document.write("<h3>Question # 04 </h3>")
+let table = +prompt("Enter table number")
+let length = +prompt("Enter table lentgh")
 
-// document.write("<b>Multiplication table of </b> " + table + " <br />")
-// document.write("<b> Length </b> " + length + " <br />" + " <br />")
+document.write("<b>Multiplication table of </b> " + table + " <br />")
+document.write("<b> Length </b> " + length + " <br />" + " <br />")
 
-// for(let i=1; i<=length; i++){
-//     document.write(table + " x " + i + " = " + table*i+ " <br />" ); 
-// }  
+for(let i=1; i<=length; i++){
+    document.write(table + " x " + i + " = " + table*i+ " <br />" ); 
+}  
 // Question # 05
 document.write("<h3>Question # 05 </h3>")
 let fruits = ["apple", "banana", "mango","orange","strawberry"]
@@ -66,19 +66,19 @@ document.write(" <br />"+ "Series: " + ser + " <br />"+" <br />")
 
 // Question # 07
 
-// let bakery = ["cake", "cookie", "pineapple", "chips", "patties", "apple pie"];
-// // let userInput = prompt("Welcome to my Bakery. What do you want to order, sir/ma'am?");
-// let found = false;
-// for (let i = 0; i < bakery.length; i++) {
-//     if (userInput.toLowerCase() === bakery[i].toLowerCase()) {
-//         alert(userInput + " is available at index " + i + " in our bakery");
-//         found = true;
-//         break;  // Once found, exit the loop
-//     }
-// }
-// if (!found) {
-//     alert(  " We are sorry." + userInput +" is  not available in our bakery" );
-// }
+let bakery = ["cake", "cookie", "pineapple", "chips", "patties", "apple pie"];
+// let userInput = prompt("Welcome to my Bakery. What do you want to order, sir/ma'am?");
+let found = false;
+for (let i = 0; i < bakery.length; i++) {
+    if (userInput.toLowerCase() === bakery[i].toLowerCase()) {
+        alert(userInput + " is available at index " + i + " in our bakery");
+        found = true;
+        break;  // Once found, exit the loop
+    }
+}
+if (!found) {
+    alert(  " We are sorry." + userInput +" is  not available in our bakery" );
+}
 
 // Question # 08
 
